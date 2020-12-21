@@ -1,0 +1,32 @@
+{
+  "name": "js-upload-excel-file",
+  "version": "1.0.0",
+  "description": "Excel Upload",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gpaetzold/node-js-upload-excel-file.git"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "Excel",
+    "Upload"
+  ],
+  "author": "Gerald",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gpaetzold/node-js-upload-excel-file/issues"
+  },
+  "homepage": "https://github.com/gpaetzold/node-js-upload-excel-file#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "mysql2": "^2.2.5",
+    "read-excel-file": "^4.1.0",
+    "sequelize": "^6.3.5"
+  }
+}
